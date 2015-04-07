@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F24062231AC5F9BD00EBD078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24062221AC5F9BD00EBD078 /* AppDelegate.swift */; };
-		F24062251AC5F9BD00EBD078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24062241AC5F9BD00EBD078 /* ViewController.swift */; };
-		F24062281AC5F9BD00EBD078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24062261AC5F9BD00EBD078 /* Main.storyboard */; };
 		F240622A1AC5F9BD00EBD078 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24062291AC5F9BD00EBD078 /* Images.xcassets */; };
 		F240622D1AC5F9BD00EBD078 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F240622B1AC5F9BD00EBD078 /* LaunchScreen.xib */; };
-		F24062391AC5F9BD00EBD078 /* MockExperimentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24062381AC5F9BD00EBD078 /* MockExperimentsTests.swift */; };
+		F2C768891AD29A7700663D8B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C768881AD29A7700663D8B /* User.swift */; };
+		F2C7688B1AD2E32F00663D8B /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C7688A1AD2E32F00663D8B /* SwiftViewController.swift */; };
+		F2C7688D1AD2E3CA00663D8B /* SwiftMockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C7688C1AD2E3CA00663D8B /* SwiftMockingTests.swift */; };
+		F2C768901AD2E49F00663D8B /* ObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C7688F1AD2E49F00663D8B /* ObjCViewController.m */; };
+		F2C768931AD2E53700663D8B /* ObjCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C768921AD2E53700663D8B /* ObjCUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,17 @@
 		F240621D1AC5F9BD00EBD078 /* MockExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24062211AC5F9BD00EBD078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24062221AC5F9BD00EBD078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F24062241AC5F9BD00EBD078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F24062271AC5F9BD00EBD078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F24062291AC5F9BD00EBD078 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F240622C1AC5F9BD00EBD078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F24062321AC5F9BD00EBD078 /* MockExperimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockExperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24062371AC5F9BD00EBD078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F24062381AC5F9BD00EBD078 /* MockExperimentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExperimentsTests.swift; sourceTree = "<group>"; };
+		F2C768881AD29A7700663D8B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2C7688A1AD2E32F00663D8B /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		F2C7688C1AD2E3CA00663D8B /* SwiftMockingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMockingTests.swift; sourceTree = "<group>"; };
+		F2C7688E1AD2E49F00663D8B /* ObjCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCViewController.h; sourceTree = "<group>"; };
+		F2C7688F1AD2E49F00663D8B /* ObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCViewController.m; sourceTree = "<group>"; };
+		F2C768911AD2E53700663D8B /* ObjCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCUser.h; sourceTree = "<group>"; };
+		F2C768921AD2E53700663D8B /* ObjCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				F24062221AC5F9BD00EBD078 /* AppDelegate.swift */,
-				F24062241AC5F9BD00EBD078 /* ViewController.swift */,
-				F24062261AC5F9BD00EBD078 /* Main.storyboard */,
+				F2C7688A1AD2E32F00663D8B /* SwiftViewController.swift */,
+				F2C768881AD29A7700663D8B /* User.swift */,
+				F2C7688E1AD2E49F00663D8B /* ObjCViewController.h */,
+				F2C7688F1AD2E49F00663D8B /* ObjCViewController.m */,
+				F2C768911AD2E53700663D8B /* ObjCUser.h */,
+				F2C768921AD2E53700663D8B /* ObjCUser.m */,
 				F24062291AC5F9BD00EBD078 /* Images.xcassets */,
 				F240622B1AC5F9BD00EBD078 /* LaunchScreen.xib */,
 				F24062201AC5F9BD00EBD078 /* Supporting Files */,
@@ -98,7 +108,7 @@
 		F24062351AC5F9BD00EBD078 /* MockExperimentsTests */ = {
 			isa = PBXGroup;
 			children = (
-				F24062381AC5F9BD00EBD078 /* MockExperimentsTests.swift */,
+				F2C7688C1AD2E3CA00663D8B /* SwiftMockingTests.swift */,
 				F24062361AC5F9BD00EBD078 /* Supporting Files */,
 			);
 			path = MockExperimentsTests;
@@ -192,7 +202,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24062281AC5F9BD00EBD078 /* Main.storyboard in Resources */,
 				F240622D1AC5F9BD00EBD078 /* LaunchScreen.xib in Resources */,
 				F240622A1AC5F9BD00EBD078 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24062251AC5F9BD00EBD078 /* ViewController.swift in Sources */,
+				F2C768901AD2E49F00663D8B /* ObjCViewController.m in Sources */,
+				F2C7688B1AD2E32F00663D8B /* SwiftViewController.swift in Sources */,
 				F24062231AC5F9BD00EBD078 /* AppDelegate.swift in Sources */,
+				F2C768931AD2E53700663D8B /* ObjCUser.m in Sources */,
+				F2C768891AD29A7700663D8B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24062391AC5F9BD00EBD078 /* MockExperimentsTests.swift in Sources */,
+				F2C7688D1AD2E3CA00663D8B /* SwiftMockingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +248,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F24062261AC5F9BD00EBD078 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F24062271AC5F9BD00EBD078 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F240622B1AC5F9BD00EBD078 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,9 +340,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = MockExperiments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,6 +353,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = MockExperiments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +414,7 @@
 				F240623E1AC5F9BD00EBD078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F240623F1AC5F9BD00EBD078 /* Build configuration list for PBXNativeTarget "MockExperimentsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +423,7 @@
 				F24062411AC5F9BD00EBD078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
